@@ -1,0 +1,1521 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/mac20211105/NewProject_2/assets/Scene.meta": {
+      "time": 1740843331164.5396
+    },
+    "/Users/mac20211105/NewProject_2/assets/Scene": {
+      "time": 1740843335866.4788,
+      "uuid": "8ee2a76f-447f-443d-ae7a-3c1565d75d2d"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Scene/scene.scene.meta": {
+      "time": 1740843335871.1658
+    },
+    "/Users/mac20211105/NewProject_2/assets/Scene/scene.scene": {
+      "time": 1740844099767.3767,
+      "uuid": "ddc762ca-79a2-4131-b57e-b23bda7c5836"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image.meta": {
+      "time": 1740843368731.2954
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/New Atlas.png.meta": {
+      "time": 1740843368790.7068
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/background.png.meta": {
+      "time": 1740843368793.1975
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bg.png.meta": {
+      "time": 1740843368795.779
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bomb.png.meta": {
+      "time": 1740843368791.93
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/btn_finish.png.meta": {
+      "time": 1740843368789.9172
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bullet.png.meta": {
+      "time": 1740843368802.8264
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bullet1.png.meta": {
+      "time": 1740843368803.484
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bullet2.png.meta": {
+      "time": 1740843368802.5803
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/button_nor.png.meta": {
+      "time": 1740843368805.1199
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/button_p.png.meta": {
+      "time": 1740843368808.0037
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0.png.meta": {
+      "time": 1740843368818.538
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0_down1.png.meta": {
+      "time": 1740843368816.9214
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0_down2.png.meta": {
+      "time": 1740843368820.3435
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0_down3.png.meta": {
+      "time": 1740843368822.1763
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0_down4.png.meta": {
+      "time": 1740843368823.7273
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1.png.meta": {
+      "time": 1740843368840.5537
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_down1.png.meta": {
+      "time": 1740843368841.6956
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_down2.png.meta": {
+      "time": 1740843368843.5342
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_down3.png.meta": {
+      "time": 1740843368843.0527
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_down4.png.meta": {
+      "time": 1740843368842.4268
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_hit.png.meta": {
+      "time": 1740843368856.8606
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2.png.meta": {
+      "time": 1740843368858.2778
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down1.png.meta": {
+      "time": 1740843368859.5024
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down2.png.meta": {
+      "time": 1740843368859.2676
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down3.png.meta": {
+      "time": 1740843368860.436
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down4.png.meta": {
+      "time": 1740843368876.7356
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down5.png.meta": {
+      "time": 1740843368877.4744
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down6.png.meta": {
+      "time": 1740843368874.7957
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_hit.png.meta": {
+      "time": 1740843368876.0183
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_n2.png.meta": {
+      "time": 1740843368879.0576
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_loading1.png.meta": {
+      "time": 1740843368885.035
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_loading2.png.meta": {
+      "time": 1740843368887.5579
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_loading3.png.meta": {
+      "time": 1740843368886.7532
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_loading4.png.meta": {
+      "time": 1740843368888.8303
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_pause_nor.png.meta": {
+      "time": 1740843368890.2207
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_pause_pressed.png.meta": {
+      "time": 1740843368894.9934
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_resume_nor.png.meta": {
+      "time": 1740843368899.2532
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_resume_pressed.png.meta": {
+      "time": 1740843368901.2283
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/gameover.png.meta": {
+      "time": 1740843368910.5237
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero1.png.meta": {
+      "time": 1740843368904.0178
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero2.png.meta": {
+      "time": 1740843368910.1528
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero_blowup_n1.png.meta": {
+      "time": 1740843368911.9436
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero_blowup_n2.png.meta": {
+      "time": 1740843368918.1287
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero_blowup_n3.png.meta": {
+      "time": 1740843368925.7158
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero_blowup_n4.png.meta": {
+      "time": 1740843368941.0225
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/icon72x72.png.meta": {
+      "time": 1740843368972.6782
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/loading.png.meta": {
+      "time": 1740843368972.937
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/name.png.meta": {
+      "time": 1740843368971.9255
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/plane.png.meta": {
+      "time": 1740843368971.686
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/progress.png.meta": {
+      "time": 1740843368978.499
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/prop_type_0.png.meta": {
+      "time": 1740843368984.2126
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/prop_type_1.png.meta": {
+      "time": 1740843368985.1597
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/quit_nor.png.meta": {
+      "time": 1740843368985.9917
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/quit_sel.png.meta": {
+      "time": 1740843368983.2004
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/restart_nor.png.meta": {
+      "time": 1740843368987.8037
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/restart_sel.png.meta": {
+      "time": 1740843368991.7305
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/resume_nor.png.meta": {
+      "time": 1740843368992.1357
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/resume_sel.png.meta": {
+      "time": 1740843368992.6697
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image": {
+      "time": 1740843368730.0166,
+      "uuid": "ba627bd9-f875-4cd0-a786-4d4ac21fc06a"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bomb.png": {
+      "time": 1740843368716.0688,
+      "uuid": "3a1c64fc-671c-4978-90da-ca1dca68e964"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/New Atlas.png": {
+      "time": 1740843368717.9868,
+      "uuid": "86364442-9442-40b9-9142-7058f016f0b5"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/btn_finish.png": {
+      "time": 1740843368715.6167,
+      "uuid": "289906b6-d35d-485a-ac61-8e474abbb9e4"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/background.png": {
+      "time": 1740843368717.5713,
+      "uuid": "76780c46-f1c3-46df-b09b-08ad09130e7f"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bullet.png": {
+      "time": 1740843368715.2192,
+      "uuid": "3cb3c166-17c5-4f46-ac1e-947b2312b68b"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bullet1.png": {
+      "time": 1740843368714.7952,
+      "uuid": "b9877f52-d4c4-4f4b-aa02-965012ab7392"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bullet2.png": {
+      "time": 1740843368714.514,
+      "uuid": "02446ffc-c886-42e6-ac2d-d5b9d6729a3c"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/bg.png": {
+      "time": 1740843368717.1277,
+      "uuid": "e756cba1-be07-499b-ae1c-afa89357d797"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/button_nor.png": {
+      "time": 1740843368714.1987,
+      "uuid": "ed7241f1-f73d-4eca-a811-df62979e105e"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/button_p.png": {
+      "time": 1740843368713.669,
+      "uuid": "a9363e17-7bfd-4595-b0a6-635c136a5783"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0_down1.png": {
+      "time": 1740843368713.0725,
+      "uuid": "f7d87bca-b94d-4463-80cd-f4d2ce1955d4"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0.png": {
+      "time": 1740843368713.3718,
+      "uuid": "26b3316f-0592-40ac-80a1-9897f2c34916"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0_down2.png": {
+      "time": 1740843368712.729,
+      "uuid": "bec8b91e-d0f3-4dac-aa82-f4fb8df4f873"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0_down3.png": {
+      "time": 1740843368712.4146,
+      "uuid": "b3f9a3f2-2580-4648-9b18-a14ea50b872d"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy0_down4.png": {
+      "time": 1740843368712.0667,
+      "uuid": "1f9e4fb8-cc33-418a-82e5-c8775dd32a2e"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_down1.png": {
+      "time": 1740843368711.3433,
+      "uuid": "8bac663a-4b42-4d98-a26a-2717795e34f7"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1.png": {
+      "time": 1740843368711.8057,
+      "uuid": "2da54996-011c-4edd-90aa-d7da2c01633d"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_down2.png": {
+      "time": 1740843368710.9006,
+      "uuid": "f1bd6aeb-d971-4e87-a481-c2152796f48c"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_down3.png": {
+      "time": 1740843368710.5117,
+      "uuid": "ae2455a9-0172-4d64-ac5a-aed1a30f06ee"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_down4.png": {
+      "time": 1740843368710.2485,
+      "uuid": "58a6e847-a129-4492-90dd-1716e10fbd99"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy1_hit.png": {
+      "time": 1740843368709.8318,
+      "uuid": "d6831ad8-4e1b-4339-a47a-d935418eb1be"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2.png": {
+      "time": 1740843368709.325,
+      "uuid": "9ba21a9e-29bd-4748-a6a0-1ac19540b9ef"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down1.png": {
+      "time": 1740843368707.544,
+      "uuid": "54e8d940-ca22-45ee-b290-ffabc3b1c76f"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down2.png": {
+      "time": 1740843368707.1338,
+      "uuid": "9f98d885-689c-4e47-9e01-f9a50c0eabae"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down3.png": {
+      "time": 1740843368706.7246,
+      "uuid": "2f0fd3cd-e056-4ac9-b53a-ca66a89165eb"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down4.png": {
+      "time": 1740843368706.3064,
+      "uuid": "1c5b05f4-a7b7-4289-9284-8764854ecb10"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down5.png": {
+      "time": 1740843368705.4834,
+      "uuid": "4c87550f-56e4-444d-a033-7b71244af90f"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_down6.png": {
+      "time": 1740843368704.9937,
+      "uuid": "2386e2ff-39ec-4bc3-8209-e8bbd81f0985"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_hit.png": {
+      "time": 1740843368704.6172,
+      "uuid": "031b2072-c1ec-4580-a76a-95c937e728d9"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/enemy2_n2.png": {
+      "time": 1740843368704.1448,
+      "uuid": "1479ea9c-d843-436f-a979-daddbca78de4"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_loading1.png": {
+      "time": 1740843368703.1455,
+      "uuid": "8008289b-c0d5-4b50-805e-31b343600fef"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_loading3.png": {
+      "time": 1740843368702.3958,
+      "uuid": "ef24295c-15cc-4dfd-bead-6b86a0d2d9bd"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_loading2.png": {
+      "time": 1740843368702.793,
+      "uuid": "29abb418-66e6-48e3-97fc-967e2f6e9764"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_loading4.png": {
+      "time": 1740843368701.9976,
+      "uuid": "4d676483-523f-4de0-adea-b9ae3c177382"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_pause_nor.png": {
+      "time": 1740843368701.717,
+      "uuid": "b531ec2c-39e4-4117-bd5b-1a9b40ee9d06"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_pause_pressed.png": {
+      "time": 1740843368701.2769,
+      "uuid": "42362c7c-6f69-41f2-aca0-3d22ee196c0d"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_resume_pressed.png": {
+      "time": 1740843368700.4102,
+      "uuid": "dea34a1a-7ecc-4ec9-a364-a5fb59a59aa7"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/game_resume_nor.png": {
+      "time": 1740843368700.836,
+      "uuid": "e91d8da1-6662-4178-8847-52ab8d144f38"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero1.png": {
+      "time": 1740843368699.4563,
+      "uuid": "4b518bfe-7e8d-44f1-904c-dcf6fbf7d271"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero2.png": {
+      "time": 1740843368699.0972,
+      "uuid": "409d95fa-00c5-4ae8-a20e-beaca3f6b372"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero_blowup_n1.png": {
+      "time": 1740843368698.6128,
+      "uuid": "7a2fae05-d9ab-4b6b-9787-cc2e3c3e3278"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/gameover.png": {
+      "time": 1740843368699.9607,
+      "uuid": "99735788-48b9-441d-8a34-f89681a24164"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero_blowup_n2.png": {
+      "time": 1740843368698.1655,
+      "uuid": "69f2f5f4-6172-4329-9189-f88dd55f4503"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero_blowup_n3.png": {
+      "time": 1740843368697.7244,
+      "uuid": "b8432c58-c4db-44e7-864f-edaf1dea7576"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/hero_blowup_n4.png": {
+      "time": 1740843368697.241,
+      "uuid": "4da31721-3a1d-44d5-8a3e-1d25199518bb"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/name.png": {
+      "time": 1740843368695.5083,
+      "uuid": "239f8efa-c6b4-4fc8-b3cd-e2190cd620a6"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/loading.png": {
+      "time": 1740843368696.315,
+      "uuid": "7b9a7018-1e50-459a-bf9e-cdbb91ba63e2"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/plane.png": {
+      "time": 1740843368694.818,
+      "uuid": "dba5e87c-c811-40ea-97e2-fdaee13b9c87"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/progress.png": {
+      "time": 1740843368694.0664,
+      "uuid": "2674e206-c5f7-468d-96ba-bfde9eee0cae"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/icon72x72.png": {
+      "time": 1740843368696.796,
+      "uuid": "3061478c-d26a-4d53-80ec-e393b2686cf0"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/prop_type_0.png": {
+      "time": 1740843368693.3535,
+      "uuid": "e610d061-f23d-493d-9757-f29410d7f7f6"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/prop_type_1.png": {
+      "time": 1740843368692.8176,
+      "uuid": "2b59994c-f015-4796-b5cc-f8b9efeaae05"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/quit_nor.png": {
+      "time": 1740843368692.356,
+      "uuid": "9703feae-0a59-4e8d-8b3a-747bdbdc64d7"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/quit_sel.png": {
+      "time": 1740843368692.0046,
+      "uuid": "de462596-068a-4170-a7f8-dfa43466f019"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/restart_nor.png": {
+      "time": 1740843368691.3838,
+      "uuid": "0e0dbd3e-e991-4d40-b289-567f9ce70f47"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/restart_sel.png": {
+      "time": 1740843368690.8137,
+      "uuid": "4ce06427-b932-4f5e-bc77-22f5481ee95b"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/resume_nor.png": {
+      "time": 1740843368690.2576,
+      "uuid": "5340bb6b-265b-45f4-a3fb-ff99e8cf96ef"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Image/resume_sel.png": {
+      "time": 1740843368689.5017,
+      "uuid": "ac65dca3-8e63-4e68-81c6-ebcc9d6571aa"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound.meta": {
+      "time": 1740843371897.1494
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/achievement.mp3.meta": {
+      "time": 1740843371904.5737
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/big_spaceship_flying.mp3.meta": {
+      "time": 1740843371903.3125
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/bullet.mp3.meta": {
+      "time": 1740843371904.402
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/button.mp3.meta": {
+      "time": 1740843371903.8582
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/enemy0_down.mp3.meta": {
+      "time": 1740843371904.7012
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/enemy1_down.mp3.meta": {
+      "time": 1740843371909.8538
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/enemy2_down.mp3.meta": {
+      "time": 1740843371909.691
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/game_music.mp3.meta": {
+      "time": 1740843371912.0361
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/game_over.mp3.meta": {
+      "time": 1740843371911.0544
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/get_bomb.mp3.meta": {
+      "time": 1740843371911.2322
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/get_double_laser.mp3.meta": {
+      "time": 1740843371915.2864
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/out_porp.mp3.meta": {
+      "time": 1740843371915.428
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/use_bomb.mp3.meta": {
+      "time": 1740843371915.5928
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound": {
+      "time": 1740843371895.875,
+      "uuid": "5430a54b-7e25-4a3e-b716-cc0da23ea97e"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/bullet.mp3": {
+      "time": 1740843371890.5798,
+      "uuid": "ba8e3331-cc6a-4d7b-964a-4a286d946e38"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/achievement.mp3": {
+      "time": 1740843371891.8594,
+      "uuid": "f9703bbf-e618-4e03-a47f-425e073b9d21"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/big_spaceship_flying.mp3": {
+      "time": 1740843371891.2043,
+      "uuid": "14abce03-45b6-45f0-814b-2559e3185ecc"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/button.mp3": {
+      "time": 1740843371890.077,
+      "uuid": "1988dde5-90e1-4476-a859-ced8a9eff765"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/enemy0_down.mp3": {
+      "time": 1740843371889.5205,
+      "uuid": "c61855ed-d031-4209-8d0a-154012e22187"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/enemy1_down.mp3": {
+      "time": 1740843371888.9163,
+      "uuid": "a3027abd-9621-4410-bc3b-420ebd93579a"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/game_music.mp3": {
+      "time": 1740843371887.2358,
+      "uuid": "0198e883-e0e4-48aa-8c69-a091c6d6db43"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/game_over.mp3": {
+      "time": 1740843371885.6836,
+      "uuid": "8e070c4a-4104-44d0-95a7-f8aad4288fc2"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/get_bomb.mp3": {
+      "time": 1740843371884.8147,
+      "uuid": "38eb6ab2-c312-4701-a57d-f9a5c7717a71"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/enemy2_down.mp3": {
+      "time": 1740843371888.2031,
+      "uuid": "8e48392d-d356-4cd6-adc3-2021962be714"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/get_double_laser.mp3": {
+      "time": 1740843371883.909,
+      "uuid": "43581d3c-ffd9-446b-90dd-d1c0cf18d82c"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/out_porp.mp3": {
+      "time": 1740843371882.1328,
+      "uuid": "46fa51e0-1bc9-4136-bab8-000e79a1fb1b"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Sound/use_bomb.mp3": {
+      "time": 1740843371881.1384,
+      "uuid": "3967630e-e3e2-4ee1-8703-6bf9f07f475c"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Animations.meta": {
+      "time": 1740843441357.157
+    },
+    "/Users/mac20211105/NewProject_2/assets/Animations": {
+      "time": 1740844183339.2039,
+      "uuid": "aeb5f470-3d2d-4ff0-ae1b-7e6dd8f8dd0c"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Animations/loading.anim.meta": {
+      "time": 1740844183341.9666
+    },
+    "/Users/mac20211105/NewProject_2/assets/Animations/loading.anim": {
+      "time": 1740844433618.445,
+      "uuid": "6c6e0646-9427-4136-b33f-72cb5e2a9b4c"
+    },
+    "/Users/mac20211105/NewProject_2/assets/scene.scene.meta": {
+      "time": 1740844486103.538
+    },
+    "/Users/mac20211105/NewProject_2/assets/scene.scene": {
+      "time": 1740990027611.4705,
+      "uuid": "dd81a3cb-8e86-4fc4-ae5e-7c838407a2e0"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Scripts.meta": {
+      "time": 1740978513744.1282
+    },
+    "/Users/mac20211105/NewProject_2/assets/Scripts": {
+      "time": 1740979740560.8325,
+      "uuid": "d94e83b1-7de4-4516-9d25-1a7cf99e8312"
+    },
+    "/Users/mac20211105/NewProject_2/assets/Scripts/StartUI.ts.meta": {
+      "time": 1740978618720.7693
+    },
+    "/Users/mac20211105/NewProject_2/assets/Scripts/StartUI.ts": {
+      "time": 1740979748174.395,
+      "uuid": "1fb7f5aa-16a3-45ed-b5de-07149eae218d"
+    },
+    "/Users/mac20211105/NewProject_2/assets/game-scene.scene.meta": {
+      "time": 1740979738014.4014
+    },
+    "/Users/mac20211105/NewProject_2/assets/game-scene.scene": {
+      "time": 1740979738001.3186,
+      "uuid": "a27c040c-5ec9-44e0-87ee-2b851f5becf5"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations": {
+      "time": 1740844183339.2039,
+      "uuid": "aeb5f470-3d2d-4ff0-ae1b-7e6dd8f8dd0c"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image": {
+      "time": 1740843368730.0166,
+      "uuid": "ba627bd9-f875-4cd0-a786-4d4ac21fc06a"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scene": {
+      "time": 1740843335866.4788,
+      "uuid": "8ee2a76f-447f-443d-ae7a-3c1565d75d2d"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts": {
+      "time": 1740979740560.8325,
+      "uuid": "d94e83b1-7de4-4516-9d25-1a7cf99e8312"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound": {
+      "time": 1740843371895.875,
+      "uuid": "5430a54b-7e25-4a3e-b716-cc0da23ea97e"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/StartUI.ts": {
+      "time": 1740979748174.395,
+      "uuid": "1fb7f5aa-16a3-45ed-b5de-07149eae218d"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations.meta": {
+      "time": 1740843441357.157
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image.meta": {
+      "time": 1740843368731.2954
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scene.meta": {
+      "time": 1740843331164.5396
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts.meta": {
+      "time": 1740978513744.1282
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound.meta": {
+      "time": 1740843371897.1494
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/StartUI.ts.meta": {
+      "time": 1740978618720.7693
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/game-scene.scene": {
+      "time": 1740979738001.3186,
+      "uuid": "a27c040c-5ec9-44e0-87ee-2b851f5becf5"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/scene.scene": {
+      "time": 1740990027611.4705,
+      "uuid": "dd81a3cb-8e86-4fc4-ae5e-7c838407a2e0"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations/loading.anim": {
+      "time": 1740844433618.445,
+      "uuid": "6c6e0646-9427-4136-b33f-72cb5e2a9b4c"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/New Atlas.png": {
+      "time": 1740843368717.9868,
+      "uuid": "86364442-9442-40b9-9142-7058f016f0b5"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/background.png": {
+      "time": 1740843368717.5713,
+      "uuid": "76780c46-f1c3-46df-b09b-08ad09130e7f"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bg.png": {
+      "time": 1740843368717.1277,
+      "uuid": "e756cba1-be07-499b-ae1c-afa89357d797"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bomb.png": {
+      "time": 1740843368716.0688,
+      "uuid": "3a1c64fc-671c-4978-90da-ca1dca68e964"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/btn_finish.png": {
+      "time": 1740843368715.6167,
+      "uuid": "289906b6-d35d-485a-ac61-8e474abbb9e4"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bullet.png": {
+      "time": 1740843368715.2192,
+      "uuid": "3cb3c166-17c5-4f46-ac1e-947b2312b68b"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bullet1.png": {
+      "time": 1740843368714.7952,
+      "uuid": "b9877f52-d4c4-4f4b-aa02-965012ab7392"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bullet2.png": {
+      "time": 1740843368714.514,
+      "uuid": "02446ffc-c886-42e6-ac2d-d5b9d6729a3c"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/button_nor.png": {
+      "time": 1740843368714.1987,
+      "uuid": "ed7241f1-f73d-4eca-a811-df62979e105e"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/button_p.png": {
+      "time": 1740843368713.669,
+      "uuid": "a9363e17-7bfd-4595-b0a6-635c136a5783"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0.png": {
+      "time": 1740843368713.3718,
+      "uuid": "26b3316f-0592-40ac-80a1-9897f2c34916"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0_down1.png": {
+      "time": 1740843368713.0725,
+      "uuid": "f7d87bca-b94d-4463-80cd-f4d2ce1955d4"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0_down2.png": {
+      "time": 1740843368712.729,
+      "uuid": "bec8b91e-d0f3-4dac-aa82-f4fb8df4f873"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0_down3.png": {
+      "time": 1740843368712.4146,
+      "uuid": "b3f9a3f2-2580-4648-9b18-a14ea50b872d"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0_down4.png": {
+      "time": 1740843368712.0667,
+      "uuid": "1f9e4fb8-cc33-418a-82e5-c8775dd32a2e"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1.png": {
+      "time": 1740843368711.8057,
+      "uuid": "2da54996-011c-4edd-90aa-d7da2c01633d"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_down1.png": {
+      "time": 1740843368711.3433,
+      "uuid": "8bac663a-4b42-4d98-a26a-2717795e34f7"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_down2.png": {
+      "time": 1740843368710.9006,
+      "uuid": "f1bd6aeb-d971-4e87-a481-c2152796f48c"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_down3.png": {
+      "time": 1740843368710.5117,
+      "uuid": "ae2455a9-0172-4d64-ac5a-aed1a30f06ee"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_down4.png": {
+      "time": 1740843368710.2485,
+      "uuid": "58a6e847-a129-4492-90dd-1716e10fbd99"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_hit.png": {
+      "time": 1740843368709.8318,
+      "uuid": "d6831ad8-4e1b-4339-a47a-d935418eb1be"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2.png": {
+      "time": 1740843368709.325,
+      "uuid": "9ba21a9e-29bd-4748-a6a0-1ac19540b9ef"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down1.png": {
+      "time": 1740843368707.544,
+      "uuid": "54e8d940-ca22-45ee-b290-ffabc3b1c76f"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down2.png": {
+      "time": 1740843368707.1338,
+      "uuid": "9f98d885-689c-4e47-9e01-f9a50c0eabae"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down3.png": {
+      "time": 1740843368706.7246,
+      "uuid": "2f0fd3cd-e056-4ac9-b53a-ca66a89165eb"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down4.png": {
+      "time": 1740843368706.3064,
+      "uuid": "1c5b05f4-a7b7-4289-9284-8764854ecb10"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down5.png": {
+      "time": 1740843368705.4834,
+      "uuid": "4c87550f-56e4-444d-a033-7b71244af90f"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down6.png": {
+      "time": 1740843368704.9937,
+      "uuid": "2386e2ff-39ec-4bc3-8209-e8bbd81f0985"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_hit.png": {
+      "time": 1740843368704.6172,
+      "uuid": "031b2072-c1ec-4580-a76a-95c937e728d9"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_n2.png": {
+      "time": 1740843368704.1448,
+      "uuid": "1479ea9c-d843-436f-a979-daddbca78de4"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_loading1.png": {
+      "time": 1740843368703.1455,
+      "uuid": "8008289b-c0d5-4b50-805e-31b343600fef"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_loading2.png": {
+      "time": 1740843368702.793,
+      "uuid": "29abb418-66e6-48e3-97fc-967e2f6e9764"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_loading3.png": {
+      "time": 1740843368702.3958,
+      "uuid": "ef24295c-15cc-4dfd-bead-6b86a0d2d9bd"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_loading4.png": {
+      "time": 1740843368701.9976,
+      "uuid": "4d676483-523f-4de0-adea-b9ae3c177382"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_pause_nor.png": {
+      "time": 1740843368701.717,
+      "uuid": "b531ec2c-39e4-4117-bd5b-1a9b40ee9d06"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_pause_pressed.png": {
+      "time": 1740843368701.2769,
+      "uuid": "42362c7c-6f69-41f2-aca0-3d22ee196c0d"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_resume_nor.png": {
+      "time": 1740843368700.836,
+      "uuid": "e91d8da1-6662-4178-8847-52ab8d144f38"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_resume_pressed.png": {
+      "time": 1740843368700.4102,
+      "uuid": "dea34a1a-7ecc-4ec9-a364-a5fb59a59aa7"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/gameover.png": {
+      "time": 1740843368699.9607,
+      "uuid": "99735788-48b9-441d-8a34-f89681a24164"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero1.png": {
+      "time": 1740843368699.4563,
+      "uuid": "4b518bfe-7e8d-44f1-904c-dcf6fbf7d271"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero2.png": {
+      "time": 1740843368699.0972,
+      "uuid": "409d95fa-00c5-4ae8-a20e-beaca3f6b372"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero_blowup_n1.png": {
+      "time": 1740843368698.6128,
+      "uuid": "7a2fae05-d9ab-4b6b-9787-cc2e3c3e3278"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero_blowup_n2.png": {
+      "time": 1740843368698.1655,
+      "uuid": "69f2f5f4-6172-4329-9189-f88dd55f4503"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero_blowup_n3.png": {
+      "time": 1740843368697.7244,
+      "uuid": "b8432c58-c4db-44e7-864f-edaf1dea7576"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero_blowup_n4.png": {
+      "time": 1740843368697.241,
+      "uuid": "4da31721-3a1d-44d5-8a3e-1d25199518bb"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/icon72x72.png": {
+      "time": 1740843368696.796,
+      "uuid": "3061478c-d26a-4d53-80ec-e393b2686cf0"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/loading.png": {
+      "time": 1740843368696.315,
+      "uuid": "7b9a7018-1e50-459a-bf9e-cdbb91ba63e2"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/name.png": {
+      "time": 1740843368695.5083,
+      "uuid": "239f8efa-c6b4-4fc8-b3cd-e2190cd620a6"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/plane.png": {
+      "time": 1740843368694.818,
+      "uuid": "dba5e87c-c811-40ea-97e2-fdaee13b9c87"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/progress.png": {
+      "time": 1740843368694.0664,
+      "uuid": "2674e206-c5f7-468d-96ba-bfde9eee0cae"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/prop_type_0.png": {
+      "time": 1740843368693.3535,
+      "uuid": "e610d061-f23d-493d-9757-f29410d7f7f6"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/prop_type_1.png": {
+      "time": 1740843368692.8176,
+      "uuid": "2b59994c-f015-4796-b5cc-f8b9efeaae05"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/quit_nor.png": {
+      "time": 1740843368692.356,
+      "uuid": "9703feae-0a59-4e8d-8b3a-747bdbdc64d7"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/quit_sel.png": {
+      "time": 1740843368692.0046,
+      "uuid": "de462596-068a-4170-a7f8-dfa43466f019"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/restart_nor.png": {
+      "time": 1740843368691.3838,
+      "uuid": "0e0dbd3e-e991-4d40-b289-567f9ce70f47"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/restart_sel.png": {
+      "time": 1740843368690.8137,
+      "uuid": "4ce06427-b932-4f5e-bc77-22f5481ee95b"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/resume_nor.png": {
+      "time": 1740843368690.2576,
+      "uuid": "5340bb6b-265b-45f4-a3fb-ff99e8cf96ef"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/resume_sel.png": {
+      "time": 1740843368689.5017,
+      "uuid": "ac65dca3-8e63-4e68-81c6-ebcc9d6571aa"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scene/scene.scene": {
+      "time": 1740844099767.3767,
+      "uuid": "ddc762ca-79a2-4131-b57e-b23bda7c5836"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/achievement.mp3": {
+      "time": 1740843371891.8594,
+      "uuid": "f9703bbf-e618-4e03-a47f-425e073b9d21"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/big_spaceship_flying.mp3": {
+      "time": 1740843371891.2043,
+      "uuid": "14abce03-45b6-45f0-814b-2559e3185ecc"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/bullet.mp3": {
+      "time": 1740843371890.5798,
+      "uuid": "ba8e3331-cc6a-4d7b-964a-4a286d946e38"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/button.mp3": {
+      "time": 1740843371890.077,
+      "uuid": "1988dde5-90e1-4476-a859-ced8a9eff765"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/enemy0_down.mp3": {
+      "time": 1740843371889.5205,
+      "uuid": "c61855ed-d031-4209-8d0a-154012e22187"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/enemy1_down.mp3": {
+      "time": 1740843371888.9163,
+      "uuid": "a3027abd-9621-4410-bc3b-420ebd93579a"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/enemy2_down.mp3": {
+      "time": 1740843371888.2031,
+      "uuid": "8e48392d-d356-4cd6-adc3-2021962be714"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/game_music.mp3": {
+      "time": 1740843371887.2358,
+      "uuid": "0198e883-e0e4-48aa-8c69-a091c6d6db43"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/game_over.mp3": {
+      "time": 1740843371885.6836,
+      "uuid": "8e070c4a-4104-44d0-95a7-f8aad4288fc2"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/get_bomb.mp3": {
+      "time": 1740843371884.8147,
+      "uuid": "38eb6ab2-c312-4701-a57d-f9a5c7717a71"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/get_double_laser.mp3": {
+      "time": 1740843371883.909,
+      "uuid": "43581d3c-ffd9-446b-90dd-d1c0cf18d82c"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/out_porp.mp3": {
+      "time": 1740843371882.1328,
+      "uuid": "46fa51e0-1bc9-4136-bab8-000e79a1fb1b"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/use_bomb.mp3": {
+      "time": 1740843371881.1384,
+      "uuid": "3967630e-e3e2-4ee1-8703-6bf9f07f475c"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations/loading.anim.meta": {
+      "time": 1740844183341.9666
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/scene.scene.meta": {
+      "time": 1740844486103.538
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/game-scene.scene.meta": {
+      "time": 1740979738014.4014
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/New Atlas.png.meta": {
+      "time": 1740843368790.7068
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/background.png.meta": {
+      "time": 1740843368793.1975
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bomb.png.meta": {
+      "time": 1740843368791.93
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/btn_finish.png.meta": {
+      "time": 1740843368789.9172
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bullet.png.meta": {
+      "time": 1740843368802.8264
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bullet1.png.meta": {
+      "time": 1740843368803.484
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bullet2.png.meta": {
+      "time": 1740843368802.5803
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/bg.png.meta": {
+      "time": 1740843368795.779
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/button_nor.png.meta": {
+      "time": 1740843368805.1199
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0.png.meta": {
+      "time": 1740843368818.538
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/button_p.png.meta": {
+      "time": 1740843368808.0037
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0_down1.png.meta": {
+      "time": 1740843368816.9214
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0_down2.png.meta": {
+      "time": 1740843368820.3435
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0_down3.png.meta": {
+      "time": 1740843368822.1763
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy0_down4.png.meta": {
+      "time": 1740843368823.7273
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1.png.meta": {
+      "time": 1740843368840.5537
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_down2.png.meta": {
+      "time": 1740843368843.5342
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_down1.png.meta": {
+      "time": 1740843368841.6956
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_down3.png.meta": {
+      "time": 1740843368843.0527
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_down4.png.meta": {
+      "time": 1740843368842.4268
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy1_hit.png.meta": {
+      "time": 1740843368856.8606
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2.png.meta": {
+      "time": 1740843368858.2778
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down1.png.meta": {
+      "time": 1740843368859.5024
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down2.png.meta": {
+      "time": 1740843368859.2676
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down3.png.meta": {
+      "time": 1740843368860.436
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down4.png.meta": {
+      "time": 1740843368876.7356
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down6.png.meta": {
+      "time": 1740843368874.7957
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_down5.png.meta": {
+      "time": 1740843368877.4744
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_hit.png.meta": {
+      "time": 1740843368876.0183
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/enemy2_n2.png.meta": {
+      "time": 1740843368879.0576
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_loading1.png.meta": {
+      "time": 1740843368885.035
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_loading2.png.meta": {
+      "time": 1740843368887.5579
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_loading3.png.meta": {
+      "time": 1740843368886.7532
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_loading4.png.meta": {
+      "time": 1740843368888.8303
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_pause_nor.png.meta": {
+      "time": 1740843368890.2207
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_pause_pressed.png.meta": {
+      "time": 1740843368894.9934
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_resume_pressed.png.meta": {
+      "time": 1740843368901.2283
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/game_resume_nor.png.meta": {
+      "time": 1740843368899.2532
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/gameover.png.meta": {
+      "time": 1740843368910.5237
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero1.png.meta": {
+      "time": 1740843368904.0178
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero2.png.meta": {
+      "time": 1740843368910.1528
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero_blowup_n1.png.meta": {
+      "time": 1740843368911.9436
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero_blowup_n2.png.meta": {
+      "time": 1740843368918.1287
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero_blowup_n3.png.meta": {
+      "time": 1740843368925.7158
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/hero_blowup_n4.png.meta": {
+      "time": 1740843368941.0225
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/name.png.meta": {
+      "time": 1740843368971.9255
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/loading.png.meta": {
+      "time": 1740843368972.937
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/plane.png.meta": {
+      "time": 1740843368971.686
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/icon72x72.png.meta": {
+      "time": 1740843368972.6782
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/progress.png.meta": {
+      "time": 1740843368978.499
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/prop_type_0.png.meta": {
+      "time": 1740843368984.2126
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/prop_type_1.png.meta": {
+      "time": 1740843368985.1597
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/quit_nor.png.meta": {
+      "time": 1740843368985.9917
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/restart_nor.png.meta": {
+      "time": 1740843368987.8037
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/quit_sel.png.meta": {
+      "time": 1740843368983.2004
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scene/scene.scene.meta": {
+      "time": 1740843335871.1658
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/restart_sel.png.meta": {
+      "time": 1740843368991.7305
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/resume_nor.png.meta": {
+      "time": 1740843368992.1357
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/achievement.mp3.meta": {
+      "time": 1740843371904.5737
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/big_spaceship_flying.mp3.meta": {
+      "time": 1740843371903.3125
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image/resume_sel.png.meta": {
+      "time": 1740843368992.6697
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/bullet.mp3.meta": {
+      "time": 1740843371904.402
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/button.mp3.meta": {
+      "time": 1740843371903.8582
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/enemy0_down.mp3.meta": {
+      "time": 1740843371904.7012
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/enemy2_down.mp3.meta": {
+      "time": 1740843371909.691
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/enemy1_down.mp3.meta": {
+      "time": 1740843371909.8538
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/game_over.mp3.meta": {
+      "time": 1740843371911.0544
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/game_music.mp3.meta": {
+      "time": 1740843371912.0361
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/get_bomb.mp3.meta": {
+      "time": 1740843371911.2322
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/get_double_laser.mp3.meta": {
+      "time": 1740843371915.2864
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/out_porp.mp3.meta": {
+      "time": 1740843371915.428
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/use_bomb.mp3.meta": {
+      "time": 1740843371915.5928
+    }
+  },
+  "missing": {
+    "ba627bd9-f875-4cd0-a786-4d4ac21fc06a": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image",
+      "time": 1740843368730.0166,
+      "removeTime": 1740843378876
+    },
+    "86364442-9442-40b9-9142-7058f016f0b5": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/New Atlas.png",
+      "time": 1740843368717.9868,
+      "removeTime": 1740843378876
+    },
+    "76780c46-f1c3-46df-b09b-08ad09130e7f": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/background.png",
+      "time": 1740843368717.5713,
+      "removeTime": 1740843378876
+    },
+    "e756cba1-be07-499b-ae1c-afa89357d797": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/bg.png",
+      "time": 1740843368717.1277,
+      "removeTime": 1740843378876
+    },
+    "3a1c64fc-671c-4978-90da-ca1dca68e964": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/bomb.png",
+      "time": 1740843368716.0688,
+      "removeTime": 1740843378877
+    },
+    "289906b6-d35d-485a-ac61-8e474abbb9e4": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/btn_finish.png",
+      "time": 1740843368715.6167,
+      "removeTime": 1740843378877
+    },
+    "3cb3c166-17c5-4f46-ac1e-947b2312b68b": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/bullet.png",
+      "time": 1740843368715.2192,
+      "removeTime": 1740843378877
+    },
+    "b9877f52-d4c4-4f4b-aa02-965012ab7392": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/bullet1.png",
+      "time": 1740843368714.7952,
+      "removeTime": 1740843378877
+    },
+    "02446ffc-c886-42e6-ac2d-d5b9d6729a3c": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/bullet2.png",
+      "time": 1740843368714.514,
+      "removeTime": 1740843378877
+    },
+    "ed7241f1-f73d-4eca-a811-df62979e105e": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/button_nor.png",
+      "time": 1740843368714.1987,
+      "removeTime": 1740843378877
+    },
+    "a9363e17-7bfd-4595-b0a6-635c136a5783": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/button_p.png",
+      "time": 1740843368713.669,
+      "removeTime": 1740843378877
+    },
+    "26b3316f-0592-40ac-80a1-9897f2c34916": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy0.png",
+      "time": 1740843368713.3718,
+      "removeTime": 1740843378877
+    },
+    "f7d87bca-b94d-4463-80cd-f4d2ce1955d4": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy0_down1.png",
+      "time": 1740843368713.0725,
+      "removeTime": 1740843378877
+    },
+    "bec8b91e-d0f3-4dac-aa82-f4fb8df4f873": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy0_down2.png",
+      "time": 1740843368712.729,
+      "removeTime": 1740843378877
+    },
+    "b3f9a3f2-2580-4648-9b18-a14ea50b872d": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy0_down3.png",
+      "time": 1740843368712.4146,
+      "removeTime": 1740843378877
+    },
+    "1f9e4fb8-cc33-418a-82e5-c8775dd32a2e": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy0_down4.png",
+      "time": 1740843368712.0667,
+      "removeTime": 1740843378877
+    },
+    "2da54996-011c-4edd-90aa-d7da2c01633d": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy1.png",
+      "time": 1740843368711.8057,
+      "removeTime": 1740843378877
+    },
+    "8bac663a-4b42-4d98-a26a-2717795e34f7": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy1_down1.png",
+      "time": 1740843368711.3433,
+      "removeTime": 1740843378877
+    },
+    "f1bd6aeb-d971-4e87-a481-c2152796f48c": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy1_down2.png",
+      "time": 1740843368710.9006,
+      "removeTime": 1740843378877
+    },
+    "ae2455a9-0172-4d64-ac5a-aed1a30f06ee": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy1_down3.png",
+      "time": 1740843368710.5117,
+      "removeTime": 1740843378877
+    },
+    "58a6e847-a129-4492-90dd-1716e10fbd99": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy1_down4.png",
+      "time": 1740843368710.2485,
+      "removeTime": 1740843378877
+    },
+    "d6831ad8-4e1b-4339-a47a-d935418eb1be": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy1_hit.png",
+      "time": 1740843368709.8318,
+      "removeTime": 1740843378877
+    },
+    "9ba21a9e-29bd-4748-a6a0-1ac19540b9ef": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2.png",
+      "time": 1740843368709.325,
+      "removeTime": 1740843378877
+    },
+    "54e8d940-ca22-45ee-b290-ffabc3b1c76f": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2_down1.png",
+      "time": 1740843368707.544,
+      "removeTime": 1740843378877
+    },
+    "9f98d885-689c-4e47-9e01-f9a50c0eabae": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2_down2.png",
+      "time": 1740843368707.1338,
+      "removeTime": 1740843378877
+    },
+    "2f0fd3cd-e056-4ac9-b53a-ca66a89165eb": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2_down3.png",
+      "time": 1740843368706.7246,
+      "removeTime": 1740843378877
+    },
+    "1c5b05f4-a7b7-4289-9284-8764854ecb10": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2_down4.png",
+      "time": 1740843368706.3064,
+      "removeTime": 1740843378877
+    },
+    "4c87550f-56e4-444d-a033-7b71244af90f": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2_down5.png",
+      "time": 1740843368705.4834,
+      "removeTime": 1740843378877
+    },
+    "2386e2ff-39ec-4bc3-8209-e8bbd81f0985": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2_down6.png",
+      "time": 1740843368704.9937,
+      "removeTime": 1740843378877
+    },
+    "031b2072-c1ec-4580-a76a-95c937e728d9": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2_hit.png",
+      "time": 1740843368704.6172,
+      "removeTime": 1740843378877
+    },
+    "1479ea9c-d843-436f-a979-daddbca78de4": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/enemy2_n2.png",
+      "time": 1740843368704.1448,
+      "removeTime": 1740843378877
+    },
+    "8008289b-c0d5-4b50-805e-31b343600fef": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/game_loading1.png",
+      "time": 1740843368703.1455,
+      "removeTime": 1740843378877
+    },
+    "29abb418-66e6-48e3-97fc-967e2f6e9764": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/game_loading2.png",
+      "time": 1740843368702.793,
+      "removeTime": 1740843378877
+    },
+    "ef24295c-15cc-4dfd-bead-6b86a0d2d9bd": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/game_loading3.png",
+      "time": 1740843368702.3958,
+      "removeTime": 1740843378877
+    },
+    "4d676483-523f-4de0-adea-b9ae3c177382": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/game_loading4.png",
+      "time": 1740843368701.9976,
+      "removeTime": 1740843378877
+    },
+    "b531ec2c-39e4-4117-bd5b-1a9b40ee9d06": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/game_pause_nor.png",
+      "time": 1740843368701.717,
+      "removeTime": 1740843378877
+    },
+    "42362c7c-6f69-41f2-aca0-3d22ee196c0d": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/game_pause_pressed.png",
+      "time": 1740843368701.2769,
+      "removeTime": 1740843378877
+    },
+    "e91d8da1-6662-4178-8847-52ab8d144f38": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/game_resume_nor.png",
+      "time": 1740843368700.836,
+      "removeTime": 1740843378877
+    },
+    "dea34a1a-7ecc-4ec9-a364-a5fb59a59aa7": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/game_resume_pressed.png",
+      "time": 1740843368700.4102,
+      "removeTime": 1740843378877
+    },
+    "99735788-48b9-441d-8a34-f89681a24164": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/gameover.png",
+      "time": 1740843368699.9607,
+      "removeTime": 1740843378877
+    },
+    "4b518bfe-7e8d-44f1-904c-dcf6fbf7d271": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/hero1.png",
+      "time": 1740843368699.4563,
+      "removeTime": 1740843378878
+    },
+    "409d95fa-00c5-4ae8-a20e-beaca3f6b372": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/hero2.png",
+      "time": 1740843368699.0972,
+      "removeTime": 1740843378878
+    },
+    "7a2fae05-d9ab-4b6b-9787-cc2e3c3e3278": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/hero_blowup_n1.png",
+      "time": 1740843368698.6128,
+      "removeTime": 1740843378878
+    },
+    "69f2f5f4-6172-4329-9189-f88dd55f4503": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/hero_blowup_n2.png",
+      "time": 1740843368698.1655,
+      "removeTime": 1740843378878
+    },
+    "b8432c58-c4db-44e7-864f-edaf1dea7576": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/hero_blowup_n3.png",
+      "time": 1740843368697.7244,
+      "removeTime": 1740843378878
+    },
+    "4da31721-3a1d-44d5-8a3e-1d25199518bb": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/hero_blowup_n4.png",
+      "time": 1740843368697.241,
+      "removeTime": 1740843378878
+    },
+    "3061478c-d26a-4d53-80ec-e393b2686cf0": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/icon72x72.png",
+      "time": 1740843368696.796,
+      "removeTime": 1740843378878
+    },
+    "7b9a7018-1e50-459a-bf9e-cdbb91ba63e2": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/loading.png",
+      "time": 1740843368696.315,
+      "removeTime": 1740843378878
+    },
+    "239f8efa-c6b4-4fc8-b3cd-e2190cd620a6": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/name.png",
+      "time": 1740843368695.5083,
+      "removeTime": 1740843378878
+    },
+    "dba5e87c-c811-40ea-97e2-fdaee13b9c87": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/plane.png",
+      "time": 1740843368694.818,
+      "removeTime": 1740843378878
+    },
+    "2674e206-c5f7-468d-96ba-bfde9eee0cae": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/progress.png",
+      "time": 1740843368694.0664,
+      "removeTime": 1740843378878
+    },
+    "e610d061-f23d-493d-9757-f29410d7f7f6": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/prop_type_0.png",
+      "time": 1740843368693.3535,
+      "removeTime": 1740843378878
+    },
+    "2b59994c-f015-4796-b5cc-f8b9efeaae05": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/prop_type_1.png",
+      "time": 1740843368692.8176,
+      "removeTime": 1740843378878
+    },
+    "9703feae-0a59-4e8d-8b3a-747bdbdc64d7": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/quit_nor.png",
+      "time": 1740843368692.356,
+      "removeTime": 1740843378878
+    },
+    "de462596-068a-4170-a7f8-dfa43466f019": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/quit_sel.png",
+      "time": 1740843368692.0046,
+      "removeTime": 1740843378878
+    },
+    "0e0dbd3e-e991-4d40-b289-567f9ce70f47": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/restart_nor.png",
+      "time": 1740843368691.3838,
+      "removeTime": 1740843378878
+    },
+    "4ce06427-b932-4f5e-bc77-22f5481ee95b": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/restart_sel.png",
+      "time": 1740843368690.8137,
+      "removeTime": 1740843378878
+    },
+    "5340bb6b-265b-45f4-a3fb-ff99e8cf96ef": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/resume_nor.png",
+      "time": 1740843368690.2576,
+      "removeTime": 1740843378878
+    },
+    "ac65dca3-8e63-4e68-81c6-ebcc9d6571aa": {
+      "path": "/Users/mac20211105/NewProject_2/assets/image/resume_sel.png",
+      "time": 1740843368689.5017,
+      "removeTime": 1740843378878
+    },
+    "5430a54b-7e25-4a3e-b716-cc0da23ea97e": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound",
+      "time": 1740843371895.875,
+      "removeTime": 1740843383820
+    },
+    "f9703bbf-e618-4e03-a47f-425e073b9d21": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/achievement.mp3",
+      "time": 1740843371891.8594,
+      "removeTime": 1740843383820
+    },
+    "14abce03-45b6-45f0-814b-2559e3185ecc": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/big_spaceship_flying.mp3",
+      "time": 1740843371891.2043,
+      "removeTime": 1740843383820
+    },
+    "ba8e3331-cc6a-4d7b-964a-4a286d946e38": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/bullet.mp3",
+      "time": 1740843371890.5798,
+      "removeTime": 1740843383820
+    },
+    "1988dde5-90e1-4476-a859-ced8a9eff765": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/button.mp3",
+      "time": 1740843371890.077,
+      "removeTime": 1740843383820
+    },
+    "c61855ed-d031-4209-8d0a-154012e22187": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/enemy0_down.mp3",
+      "time": 1740843371889.5205,
+      "removeTime": 1740843383820
+    },
+    "a3027abd-9621-4410-bc3b-420ebd93579a": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/enemy1_down.mp3",
+      "time": 1740843371888.9163,
+      "removeTime": 1740843383820
+    },
+    "8e48392d-d356-4cd6-adc3-2021962be714": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/enemy2_down.mp3",
+      "time": 1740843371888.2031,
+      "removeTime": 1740843383820
+    },
+    "0198e883-e0e4-48aa-8c69-a091c6d6db43": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/game_music.mp3",
+      "time": 1740843371887.2358,
+      "removeTime": 1740843383820
+    },
+    "8e070c4a-4104-44d0-95a7-f8aad4288fc2": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/game_over.mp3",
+      "time": 1740843371885.6836,
+      "removeTime": 1740843383820
+    },
+    "38eb6ab2-c312-4701-a57d-f9a5c7717a71": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/get_bomb.mp3",
+      "time": 1740843371884.8147,
+      "removeTime": 1740843383820
+    },
+    "43581d3c-ffd9-446b-90dd-d1c0cf18d82c": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/get_double_laser.mp3",
+      "time": 1740843371883.909,
+      "removeTime": 1740843383820
+    },
+    "46fa51e0-1bc9-4136-bab8-000e79a1fb1b": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/out_porp.mp3",
+      "time": 1740843371882.1328,
+      "removeTime": 1740843383820
+    },
+    "3967630e-e3e2-4ee1-8703-6bf9f07f475c": {
+      "path": "/Users/mac20211105/NewProject_2/assets/sound/use_bomb.mp3",
+      "time": 1740843371881.1384,
+      "removeTime": 1740843383820
+    },
+    "b9128bc8-577b-4c18-a939-72504c9a7625": {
+      "path": "/Users/mac20211105/NewProject_2/assets/Animations/loading.anim",
+      "time": 1740844094426.6123,
+      "removeTime": 1740844163523
+    },
+    "d94e83b1-7de4-4516-9d25-1a7cf99e8312": {
+      "path": "/Users/mac20211105/NewProject_2/assets/cripts",
+      "time": 1740978513730.099,
+      "removeTime": 1740978521901
+    },
+    "a27c040c-5ec9-44e0-87ee-2b851f5becf5": {
+      "path": "/Users/mac20211105/NewProject_2/assets/Scripts/game-scene.scene",
+      "time": 1740979738001.3186,
+      "removeTime": 1740979740561
+    }
+  }
+}
