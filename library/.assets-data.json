@@ -1624,10 +1624,18 @@
     "url": "db://assets/game-scene.scene",
     "value": {
       "depends": [
-        "a27c040c-5ec9-44e0-87ee-2b851f5becf5"
+        "a27c040c-5ec9-44e0-87ee-2b851f5becf5",
+        "76780c46-f1c3-46df-b09b-08ad09130e7f@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "1160da1d-7c12-49af-b8a0-1401df0baacb"
+      ]
     },
+    "versionCode": 1
+  },
+  "1160da1d-7c12-49af-b8a0-1401df0baacb": {
+    "url": "db://assets/Scripts/Bg.ts",
+    "value": {},
     "versionCode": 1
   }
 }
