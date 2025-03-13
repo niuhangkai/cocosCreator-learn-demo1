@@ -581,7 +581,7 @@
       "uuid": "8ee2a76f-447f-443d-ae7a-3c1565d75d2d"
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts": {
-      "time": 1740979740560.8325,
+      "time": 1741789513037.7168,
       "uuid": "d94e83b1-7de4-4516-9d25-1a7cf99e8312"
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound": {
@@ -611,7 +611,7 @@
       "time": 1740978618720.7693
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/game-scene.scene": {
-      "time": 1740979738001.3186,
+      "time": 1741789967932.546,
       "uuid": "a27c040c-5ec9-44e0-87ee-2b851f5becf5"
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/scene.scene": {
@@ -1134,6 +1134,13 @@
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound/use_bomb.mp3.meta": {
       "time": 1740843371915.5928
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bg.ts.meta": {
+      "time": 1741789513048.798
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bg.ts": {
+      "time": 1741794715760.3298,
+      "uuid": "1160da1d-7c12-49af-b8a0-1401df0baacb"
     }
   },
   "missing": {
