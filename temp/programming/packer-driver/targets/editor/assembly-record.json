@@ -166,6 +166,18 @@
       },
       "timestamp": 1741757256755
     },
+    "834c1b8a2cee06c776a9adbb309a5b2b8e6bd169": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1741842760384
+    },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
         "__unresolved_0": {
@@ -407,11 +419,47 @@
           "messages": []
         }
       },
-      "timestamp": 1741788793138
+      "timestamp": 1742187565621
     },
     "6a5019a719a9014c047e67aa1cf34453ab8392ce": {
       "imports": {},
-      "timestamp": 1741788793156
+      "timestamp": 1742187565661
+    },
+    "fff8bbe37199fe2fe36b3db57982303896f53e15": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1742189300973
+    },
+    "0828d2058f8a4dafd85d63d51db14e2f0587d913": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1742222935112
+    },
+    "3cae0332810b808149ddff00f82852584db9d786": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1742223692827
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -426,6 +474,13 @@
           "resolved": {
             "type": "chunk",
             "id": "1595b67b17e43e1b429bd847b765b5253bd254ea"
+          },
+          "messages": []
+        },
+        "__unresolved_10": {
+          "resolved": {
+            "type": "chunk",
+            "id": "f70888f7f1ad0400a37ba53bd8249a6c8b5d442c"
           },
           "messages": []
         },
@@ -467,14 +522,28 @@
         "__unresolved_7": {
           "resolved": {
             "type": "chunk",
-            "id": "f70888f7f1ad0400a37ba53bd8249a6c8b5d442c"
+            "id": "0828d2058f8a4dafd85d63d51db14e2f0587d913"
+          },
+          "messages": []
+        },
+        "__unresolved_8": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ea9be6a9731185c8b4d3c82286a25f5a97eb2438"
+          },
+          "messages": []
+        },
+        "__unresolved_9": {
+          "resolved": {
+            "type": "chunk",
+            "id": "fff8bbe37199fe2fe36b3db57982303896f53e15"
           },
           "messages": []
         }
       },
-      "timestamp": 1741794716716
+      "timestamp": 1742226388997
     },
-    "834c1b8a2cee06c776a9adbb309a5b2b8e6bd169": {
+    "ea9be6a9731185c8b4d3c82286a25f5a97eb2438": {
       "imports": {
         "cc": {
           "resolved": {
@@ -484,7 +553,7 @@
           "messages": []
         }
       },
-      "timestamp": 1741794716739
+      "timestamp": 1742226389014
     }
   },
   "entries": {
@@ -497,6 +566,9 @@
     "file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "977af1171136a24400239ed262f40b7207483423",
     "file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "3f836b73eb0384e41dadfab72b683f449670040c",
     "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bg.ts": "834c1b8a2cee06c776a9adbb309a5b2b8e6bd169",
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bullet.ts": "0828d2058f8a4dafd85d63d51db14e2f0587d913",
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Enemy.ts": "ea9be6a9731185c8b4d3c82286a25f5a97eb2438",
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Player.ts": "fff8bbe37199fe2fe36b3db57982303896f53e15",
     "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/StartUI.ts": "f70888f7f1ad0400a37ba53bd8249a6c8b5d442c"
   }
 }

@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, Bg;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, Bg;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -38,7 +38,7 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(this, "bg02", _descriptor2, this);
 
-          this.speed = 100;
+          _initializerDefineProperty(this, "speed", _descriptor3, this);
         }
 
         // start() 方法是在组件被激活后执行的方法，通常用于初始化组件的状态。
@@ -49,18 +49,17 @@ System.register(["cc"], function (_export, _context) {
 
         update(deltaTime) {
           const position1 = this.bg01.getPosition();
-          console.log("update-Bg-scene122111", deltaTime, position1.x);
           this.bg01.setPosition(position1.x, position1.y - this.speed * deltaTime
           /** 速度*时间 */
           , position1.z);
           const position2 = this.bg02.getPosition();
           this.bg02.setPosition(position2.x, position2.y - this.speed * deltaTime, position2.z);
 
-          if (this.bg01.position.y <= -850) {
+          if (this.bg01.position.y <= -425) {
             this.bg01.setPosition(position1.x, position2.y + 850, 0);
           }
 
-          if (this.bg02.position.y <= -850) {
+          if (this.bg02.position.y <= -425) {
             this.bg02.setPosition(position2.x, position1.y + 850, 0);
           }
         }
@@ -78,6 +77,13 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: function () {
           return null;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return 100;
         }
       })), _class2)) || _class));
 

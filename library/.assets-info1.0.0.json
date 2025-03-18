@@ -569,7 +569,7 @@
       "uuid": "a27c040c-5ec9-44e0-87ee-2b851f5becf5"
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations": {
-      "time": 1740844183339.2039,
+      "time": 1742224826044.3315,
       "uuid": "aeb5f470-3d2d-4ff0-ae1b-7e6dd8f8dd0c"
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Image": {
@@ -581,7 +581,7 @@
       "uuid": "8ee2a76f-447f-443d-ae7a-3c1565d75d2d"
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts": {
-      "time": 1741789513037.7168,
+      "time": 1742223697687.0698,
       "uuid": "d94e83b1-7de4-4516-9d25-1a7cf99e8312"
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Sound": {
@@ -611,7 +611,7 @@
       "time": 1740978618720.7693
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/game-scene.scene": {
-      "time": 1741789967932.546,
+      "time": 1742117691370.1816,
       "uuid": "a27c040c-5ec9-44e0-87ee-2b851f5becf5"
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/scene.scene": {
@@ -1139,8 +1139,71 @@
       "time": 1741789513048.798
     },
     "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bg.ts": {
-      "time": 1741794715760.3298,
+      "time": 1741842529928.5574,
       "uuid": "1160da1d-7c12-49af-b8a0-1401df0baacb"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations/Player_idle.anim.meta": {
+      "time": 1741843434988.581
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations/Player_idle.anim": {
+      "time": 1741843936532.9788,
+      "uuid": "ec9b0c19-75da-4f60-bbdd-060967bc6295"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Player.ts.meta": {
+      "time": 1741878592049.4639
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Player.ts": {
+      "time": 1742189291825.9797,
+      "uuid": "bc16ec97-7bb4-4d7e-913a-f05b23fe4fb1"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bullet.ts.meta": {
+      "time": 1742109011982.641
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bullet.ts": {
+      "time": 1742222932029.3235,
+      "uuid": "6e19f093-daef-40ad-bf4e-fe494885320f"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab.meta": {
+      "time": 1742109320973.4526
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab": {
+      "time": 1742224085241.1423,
+      "uuid": "f8cf5fb0-483f-466d-8a31-575cfdd3202e"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/Bullet2.prefab.meta": {
+      "time": 1742117802902.5117
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/Bullet2.prefab": {
+      "time": 1742117802901.9731,
+      "uuid": "bf895f61-d2a9-4900-9f8d-764634d180e7"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/Bullet1.prefab.meta": {
+      "time": 1742118042597.0596
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/Bullet1.prefab": {
+      "time": 1742118042596.4473,
+      "uuid": "a2d4371c-cf4e-4497-bfa4-4e9e4f496b9f"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Enemy.ts.meta": {
+      "time": 1742223692765.9482
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Enemy.ts": {
+      "time": 1742226376348.4485,
+      "uuid": "a605eabf-1fb5-457e-b164-55911b40161e"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/Enemy0.prefab.meta": {
+      "time": 1742224085244.5212
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/Enemy0.prefab": {
+      "time": 1742224085242.852,
+      "uuid": "234ca5be-bace-41d3-b3e6-b06b1ac286c8"
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations/Enemy0_Down.anim.meta": {
+      "time": 1742224826064.987
+    },
+    "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Animations/Enemy0_Down.anim": {
+      "time": 1742226192478.41,
+      "uuid": "29969009-0f9c-4d8a-8757-68f10f68beb9"
     }
   },
   "missing": {
@@ -1523,6 +1586,31 @@
       "path": "/Users/mac20211105/NewProject_2/assets/Scripts/game-scene.scene",
       "time": 1740979738001.3186,
       "removeTime": 1740979740561
+    },
+    "0383dd81-84fd-44cd-a991-3d2e2ba2cb61": {
+      "path": "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Player.prefab",
+      "time": 1741857667004.549,
+      "removeTime": 1741857682119
+    },
+    "bf895f61-d2a9-4900-9f8d-764634d180e7": {
+      "path": "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/bullet2.prefab",
+      "time": 1742117779426.7507,
+      "removeTime": 1742117802900
+    },
+    "b6d6709d-caf5-4bd5-831c-840549f7f949": {
+      "path": "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/Bullet1.prefab",
+      "time": 1742117770091.8403,
+      "removeTime": 1742118033284
+    },
+    "a2d4371c-cf4e-4497-bfa4-4e9e4f496b9f": {
+      "path": "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Prefab/bullet1.prefab",
+      "time": 1742118035764.7688,
+      "removeTime": 1742118042593
+    },
+    "a605eabf-1fb5-457e-b164-55911b40161e": {
+      "path": "/Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/enemy.ts",
+      "time": 1742223692761.9358,
+      "removeTime": 1742223697685
     }
   }
 }
