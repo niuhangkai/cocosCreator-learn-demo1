@@ -1,11 +1,9 @@
 {
   "__version__": "1.0.1",
-  "general": {
-    "start_scene": "current_scene"
-  },
+  "general": {},
   "preview": {
     "current": {
-      "platform": "browser"
+      "platform": "gameView"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6086.665083,
+      "mTimestamp": 6214.5685,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -724,7 +724,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 38829418.986667,
+      "mTimestamp": 112706051.830583,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -826,7 +826,7 @@
           }
         },
         {
-          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bullet.ts",
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/BombUI.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -840,7 +840,7 @@
           }
         },
         {
-          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Enemy.ts",
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bullet.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -849,17 +849,17 @@
             },
             "end": {
               "line": 5,
-              "column": 1392
+              "column": 1393
             }
           }
         },
         {
-          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Player.ts",
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Enemy.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1408
+              "column": 1409
             },
             "end": {
               "line": 5,
@@ -868,7 +868,7 @@
           }
         },
         {
-          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/StartUI.ts",
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/EnemyManager.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -877,7 +877,91 @@
             },
             "end": {
               "line": 5,
-              "column": 1619
+              "column": 1624
+            }
+          }
+        },
+        {
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/GameManager.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1640
+            },
+            "end": {
+              "line": 5,
+              "column": 1742
+            }
+          }
+        },
+        {
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/LifeCount.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1758
+            },
+            "end": {
+              "line": 5,
+              "column": 1858
+            }
+          }
+        },
+        {
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Player.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1874
+            },
+            "end": {
+              "line": 5,
+              "column": 1971
+            }
+          }
+        },
+        {
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Reward.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1987
+            },
+            "end": {
+              "line": 5,
+              "column": 2084
+            }
+          }
+        },
+        {
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/ScoreUI.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2100
+            },
+            "end": {
+              "line": 5,
+              "column": 2198
+            }
+          }
+        },
+        {
+          "value": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/StartUI.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2214
+            },
+            "end": {
+              "line": 5,
+              "column": 2312
             }
           }
         }
@@ -936,6 +1020,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/BombUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bullet.ts"
           },
           "messages": []
@@ -950,7 +1041,42 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/EnemyManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/LifeCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Player.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Reward.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/ScoreUI.ts"
           },
           "messages": []
         },
@@ -1526,7 +1652,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1742187559536,
+      "mTimestamp": 1743234521474,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1586,7 +1712,7 @@
     },
     "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/StartUI.ts": {
       "mTimestamp": {
-        "mtime": 1740979748174.395,
+        "mtime": 1742879194219.188,
         "uuid": "1fb7f5aa-16a3-45ed-b5de-07149eae218d"
       },
       "chunkId": "f70888f7f1ad0400a37ba53bd8249a6c8b5d442c",
@@ -1690,11 +1816,15 @@
     },
     "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1742189291825.9797,
+        "mtime": 1743347225946.0278,
         "uuid": "bc16ec97-7bb4-4d7e-913a-f05b23fe4fb1"
       },
       "chunkId": "fff8bbe37199fe2fe36b3db57982303896f53e15",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -1706,11 +1836,53 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 82
+              "column": 150
             },
             "end": {
               "line": 1,
-              "column": 86
+              "column": 154
+            }
+          }
+        },
+        {
+          "value": "./Reward",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./LifeCount",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 39
             }
           }
         }
@@ -1720,7 +1892,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1735,6 +1907,34 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Reward.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/LifeCount.ts"
           },
           "messages": []
         }
@@ -1846,10 +2046,115 @@
     },
     "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1742226376348.4485,
+        "mtime": 1743339139575.8718,
         "uuid": "a605eabf-1fb5-457e-b164-55911b40161e"
       },
       "chunkId": "ea9be6a9731185c8b4d3c82286a25f5a97eb2438",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 101
+            },
+            "end": {
+              "line": 1,
+              "column": 105
+            }
+          }
+        },
+        {
+          "value": "./Bullet",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/EnemyManager.ts": {
+      "mTimestamp": {
+        "mtime": 1743263023554.8833,
+        "uuid": "02397996-09b0-4617-ac78-af63fa63e413"
+      },
+      "chunkId": "8d360911b2dbc0be708149149815422447aa233c",
       "imports": [
         {
           "value": "cc"
@@ -1862,11 +2167,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 55
+              "column": 81
             },
             "end": {
               "line": 1,
-              "column": 59
+              "column": 85
             }
           }
         }
@@ -1891,6 +2196,330 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/Reward.ts": {
+      "mTimestamp": {
+        "mtime": 1743315473784.2617,
+        "uuid": "dd32d5a5-52c5-43e4-8ace-270db77df2ce"
+      },
+      "chunkId": "27c51b58c6fa2bcddc158df8f868e24b7a0d9759",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 107
+            },
+            "end": {
+              "line": 1,
+              "column": 111
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1743345778094.8271,
+        "uuid": "3fcca19d-f479-4acf-b1cd-ee71b939ef1c"
+      },
+      "chunkId": "07943ca28e1c03af484eede2dfe42ec1e9114cb0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/BombUI.ts": {
+      "mTimestamp": {
+        "mtime": 1743330914702.971,
+        "uuid": "f263159a-8b30-4d01-a2be-fbc2f4749e19"
+      },
+      "chunkId": "1845a9e6038fe35576a876ca122f50abeb7b2bef",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/LifeCount.ts": {
+      "mTimestamp": {
+        "mtime": 1743331649523.7188,
+        "uuid": "004b22c2-3025-4671-9d5e-4202d9c52159"
+      },
+      "chunkId": "6def247ad976d28bd37a33188d6e71b5cdd218cc",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/ScoreUI.ts": {
+      "mTimestamp": {
+        "mtime": 1743339526311.0012,
+        "uuid": "46a5dba0-7f95-40b4-848f-49fb45f7b88a"
+      },
+      "chunkId": "9e3e526e7bb11bcccc9d7b4451b3dd67d3efe345",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mac20211105/Desktop/cocosCreator-demo-learn/AircraftWars/assets/Scripts/GameManager.ts"
           },
           "messages": []
         }

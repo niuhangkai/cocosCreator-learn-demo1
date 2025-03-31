@@ -1,4 +1,8 @@
-import {Prefab, instantiate, _decorator, Component, Node, EventTouch, Vec3 } from 'cc';
+import {Prefab, instantiate, _decorator, Component, Node, EventTouch, Vec3, Collider2D, Contact2DType, IPhysics2DContact,Animation, Enum, game } from 'cc';
+import { Reward, RewardType } from './Reward';
+import { EnemyManager } from './EnemyManager';
+import { GameManager } from './GameManager';
+import { LifeCount } from './LifeCount';
 const { ccclass, property } = _decorator;
 
 enum ShootType {
@@ -29,7 +33,7 @@ export class Player extends Component {
     bulletInitPos: Node = null;
     
     // 射击类型
-    @property(ShootType)
+    @property({type: Enum(ShootType)})
     shootType: ShootType = ShootType.Single;
 
     // 第二种子弹的prefab
@@ -42,9 +46,43 @@ export class Player extends Component {
     @property(Node)
     bulletInitPos3: Node = null;
 
+    // 碰撞体
+    collider: Collider2D = null;
 
+    // 血量为3
+    @property(Number)
+    hp: number = 6;
 
+    // 爆炸动画
+    @property(Animation)
+    anim: Animation = null;
 
+    // 两个主角飞机动画
+    @property(String)
+    animHit: string = '';
+
+    // 飞机爆炸动画
+    @property(String)
+    animDown: string = '';
+
+    // 主角无敌时间
+    invincibleTime: number = 1
+    isInvincible: boolean = false
+
+    // 生命计数器
+    @property(LifeCount)
+    lifeCountUI: LifeCount = null;
+
+    start() {
+        this.lifeCountUI.updateUI(this.hp)
+        // 注册单个碰撞体的回调函数
+        this.collider = this.getComponent(Collider2D);
+
+        if (this.collider) {
+            this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+            // collider.on(Contact2DType.END_CONTACT, this.onEndContact, this);
+        }
+    }
     // 绑定touchmove事件
     // onLoad 是 cocos 的钩子函数，在节点加载时调用
     protected onLoad(): void {
@@ -80,7 +118,6 @@ export class Player extends Component {
             const bullet1 = instantiate(this.bulletPrefab);
             // 添加到场景中
             this.bulletParent.addChild(bullet1);
-            console.log(this.bulletParent, 'this.bulletParent',this.bulletInitPos.worldPosition, 'this.bulletInitPos')
             // 设置子弹位置
             bullet1.setWorldPosition(this.bulletInitPos.worldPosition);
         }
@@ -109,7 +146,14 @@ export class Player extends Component {
 
     // 触摸移动事件
     onTouchMove(event: EventTouch): void {
-        console.log('触摸移动事件');
+        // 如果游戏暂停，则不进行移动       
+        // if (game.isPaused) {
+        //     return;
+        // }
+        if (this.hp <= 0) {
+            return;
+        }
+
         // 跟随鼠标移动
         const p = this.node.position
         // Vec3 是 cocos 的向量类
@@ -133,6 +177,53 @@ export class Player extends Component {
         }
 
         this.node.setPosition(targetPos);
+    }
+
+    onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        console.log('碰撞事件');
+        // 判断是不是奖励
+        const reward = otherCollider.getComponent(Reward);
+        if (reward) {
+            // 判断奖励类型
+            if (reward.rewardType === RewardType.TwoShoot) {
+                this.shootType = ShootType.Double;
+                this.scheduleOnce(() => {
+                    this.shootType = ShootType.Single;
+                }, 5);
+            } else if (reward.rewardType === RewardType.Bomb) {
+                GameManager.getInstance().AddBombCount();
+                otherCollider.node.destroy();
+                // this.shootType = ShootType.Triple;
+            }
+            otherCollider.node.destroy();
+        } else { 
+        // 如果主角无敌，则不进行碰撞检测
+        if (this.isInvincible) {
+            return;
+        }
+        this.isInvincible = true;
+        this.hp -= 1;
+        if (this.hp <= 0) {
+            this.anim.play(this.animDown)
+            this.anim.on(Animation.EventType.FINISHED, () => {
+                // this.collider.enabled = false;
+                this.node.destroy();
+            });
+        } else {
+            this.anim.play(this.animHit)
+            // 主角无敌时间
+            this.scheduleOnce(() => {
+                this.isInvincible = false;
+            }, this.invincibleTime);
+        }
+        this.lifeCountUI.updateUI(this.hp)
+        }
+    }
+
+    onDestroy() {
+        if (this.collider) {
+            this.collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+        }
     }
 }
 
