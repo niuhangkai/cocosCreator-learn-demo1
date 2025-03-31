@@ -1,0 +1,8 @@
+# 忽略日志文件
+temp/logs/
+temp/logs/project.log
+
+# 忽略临时文件
+temp/
+
+# 忽略构建文件
