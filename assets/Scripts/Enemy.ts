@@ -81,7 +81,7 @@ export class enemy extends Component {
             this.anim.play(this.animDown)
             this.collider.enabled = false;  
 
-            AudioMgr.inst.playOneShot(this.enemyDownAudio, 0.2)
+            AudioMgr.inst.playOneShot(this.enemyDownAudio, 0.2) 
             // 动画播放完成之后，销毁节点
             this.anim.on(Animation.EventType.FINISHED, () => {
                 GameManager.getInstance().AddScore(this.score);
