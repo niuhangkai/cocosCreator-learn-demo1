@@ -256,6 +256,10 @@
     "animHit": "",
     "animDown": "Enemy0_Down",
     "score": 10,
+    "enemyDownAudio": {
+      "__uuid__": "c61855ed-d031-4209-8d0a-154012e22187",
+      "__expectedType__": "cc.AudioClip"
+    },
     "_id": ""
   },
   {

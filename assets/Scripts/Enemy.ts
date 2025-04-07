@@ -1,6 +1,8 @@
-import { Animation, _decorator, Component, Node, Collider2D, Contact2DType, IPhysics2DContact } from 'cc';
+import { Animation, _decorator, Component, Node, Collider2D, Contact2DType, IPhysics2DContact, AudioClip } from 'cc';
 import { Bullet } from './Bullet';
 import { GameManager } from './GameManager';
+import { EnemyManager } from './EnemyManager';
+import { AudioMgr } from './AudioMgr';
 const { ccclass, property } = _decorator;
 
 @ccclass('enemy')
@@ -32,6 +34,14 @@ export class enemy extends Component {
     @property(Number)
     score: number = 100;
 
+    // 敌机爆炸音效
+    @property(AudioClip)
+    enemyDownAudio: AudioClip = null;
+
+    // 敌机Manager
+    // @property(EnemyManager)
+    // enemyManager: EnemyManager = null;
+
     start() {
         // 播放爆炸动画
         // this.anim.play();
@@ -60,7 +70,6 @@ export class enemy extends Component {
     // otherCollider: 其他碰撞体
     // contact: 碰撞信息
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
-
         // 销毁其他碰撞体，这里需要注意，碰撞体是敌机和敌机也会导致销毁，所以需要分组
 
         // 如果碰撞体是子弹，则销毁子弹。有可能是player飞机碰撞，所以只能处理player飞机的子弹
@@ -70,11 +79,16 @@ export class enemy extends Component {
         this.hpLabel-=1
         if (this.hpLabel <= 0) {
             this.anim.play(this.animDown)
-            this.collider.enabled = false;
+            this.collider.enabled = false;  
+
+            AudioMgr.inst.playOneShot(this.enemyDownAudio, 0.2)
             // 动画播放完成之后，销毁节点
             this.anim.on(Animation.EventType.FINISHED, () => {
                 GameManager.getInstance().AddScore(this.score);
-                this.node.destroy();    
+                // EnemyManager.getInstance().removeEnemy.call(EnemyManager.getInstance(), this.node)
+                this.node.destroy();
+             
+             
             });
         } else {
             this.anim.play(this.animHit)
@@ -85,6 +99,20 @@ export class enemy extends Component {
         if (this.collider) {
             this.collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         }
+        // 销毁后从EnemyManager的enemyArray中移除
+        EnemyManager.getInstance().removeEnemy(this.node)
+    }
+    // 销毁当前敌机
+
+    killNow() {
+        this.anim.play(this.animDown)   
+        this.collider.enabled = false;  
+        // 动画播放完成之后，销毁节点
+        this.anim.on(Animation.EventType.FINISHED, () => {
+            GameManager.getInstance().AddScore(this.score);
+            this.node.destroy();
+         
+        });
     }
 }
 

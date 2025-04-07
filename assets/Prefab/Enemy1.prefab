@@ -46,7 +46,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -86.459,
-      "y": 508.261,
+      "y": 530.815,
       "z": 0
     },
     "_lrot": {
@@ -256,6 +256,10 @@
     "animHit": "Enemy1_Hit",
     "animDown": "Enemy1_Down",
     "score": 50,
+    "enemyDownAudio": {
+      "__uuid__": "a3027abd-9621-4410-bc3b-420ebd93579a",
+      "__expectedType__": "cc.AudioClip"
+    },
     "_id": ""
   },
   {

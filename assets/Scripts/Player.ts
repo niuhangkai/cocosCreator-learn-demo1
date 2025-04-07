@@ -1,8 +1,10 @@
 import {Prefab, instantiate, _decorator, Component, Node, EventTouch, Vec3, Collider2D, Contact2DType, IPhysics2DContact,Animation, Enum, game } from 'cc';
 import { Reward, RewardType } from './Reward';
-import { EnemyManager } from './EnemyManager';
+// import { EnemyManager } from './EnemyManager';
 import { GameManager } from './GameManager';
 import { LifeCount } from './LifeCount';
+import { AudioClip } from 'cc';
+import { AudioMgr } from './AudioMgr';
 const { ccclass, property } = _decorator;
 
 enum ShootType {
@@ -73,6 +75,19 @@ export class Player extends Component {
     @property(LifeCount)
     lifeCountUI: LifeCount = null;
 
+
+    // 发射子弹音效
+    @property(AudioClip)
+    shootAudio: AudioClip = null;
+
+    //奖励音效获取炸弹
+    @property(AudioClip)
+    rewardAudioGetBomb: AudioClip = null;
+
+    //奖励音效获取双倍子弹
+    @property(AudioClip)
+    rewardAudioGetDoubleShoot: AudioClip = null;
+
     start() {
         this.lifeCountUI.updateUI(this.hp)
         // 注册单个碰撞体的回调函数
@@ -111,6 +126,8 @@ export class Player extends Component {
         this.shootTimer += deltaTime;
         // 如果shootTime大于等于frequency，则发射子弹
         if (this.shootTimer >= this.frequency) {
+            // 播放发射子弹音效
+            AudioMgr.inst.playOneShot(this.shootAudio, 0.2)
             // 计时器清零
             this.shootTimer = 0;
             // 实例化子弹
@@ -120,6 +137,7 @@ export class Player extends Component {
             this.bulletParent.addChild(bullet1);
             // 设置子弹位置
             bullet1.setWorldPosition(this.bulletInitPos.worldPosition);
+         
         }
     }
     // 双发射击
@@ -186,11 +204,13 @@ export class Player extends Component {
         if (reward) {
             // 判断奖励类型
             if (reward.rewardType === RewardType.TwoShoot) {
+                AudioMgr.inst.playOneShot(this.rewardAudioGetDoubleShoot, 0.2)
                 this.shootType = ShootType.Double;
                 this.scheduleOnce(() => {
                     this.shootType = ShootType.Single;
                 }, 5);
             } else if (reward.rewardType === RewardType.Bomb) {
+                AudioMgr.inst.playOneShot(this.rewardAudioGetBomb, 0.2)
                 GameManager.getInstance().AddBombCount();
                 otherCollider.node.destroy();
                 // this.shootType = ShootType.Triple;
@@ -208,6 +228,7 @@ export class Player extends Component {
             this.anim.on(Animation.EventType.FINISHED, () => {
                 // this.collider.enabled = false;
                 this.node.destroy();
+                GameManager.getInstance().gameOver();
             });
         } else {
             this.anim.play(this.animHit)
