@@ -7,12 +7,52 @@
       },
       "buildPath": "project://build",
       "outputName": "web-mobile",
-      "mainBundleCompressionType": "merge_dep",
+      "mainBundleCompressionType": "none",
       "platform": "web-mobile",
-      "useSplashScreen": false
+      "useSplashScreen": false,
+      "md5Cache": false,
+      "scenes": [
+        {
+          "url": "db://assets/game-scene.scene",
+          "uuid": "a27c040c-5ec9-44e0-87ee-2b851f5becf5"
+        },
+        {
+          "url": "db://assets/Scene/scene.scene",
+          "uuid": "ddc762ca-79a2-4131-b57e-b23bda7c5836"
+        },
+        {
+          "url": "db://assets/scene.scene",
+          "uuid": "dd81a3cb-8e86-4fc4-ae5e-7c838407a2e0"
+        }
+      ],
+      "startScene": "dd81a3cb-8e86-4fc4-ae5e-7c838407a2e0"
     },
     "taskOptionsMap": {
       "1742916306824": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1744261734129": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1744261934851": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1744262817480": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1744262908096": {
         "useWebGPU": false,
         "orientation": "auto",
         "embedWebDebugger": false,

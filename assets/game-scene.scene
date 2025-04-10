@@ -4771,6 +4771,10 @@
       "__expectedType__": "cc.Prefab"
     },
     "enemyArray": [],
+    "useBombAudio": {
+      "__uuid__": "3967630e-e3e2-4ee1-8703-6bf9f07f475c",
+      "__expectedType__": "cc.AudioClip"
+    },
     "_id": "af2opfb5BH94b8EPhMb71u"
   },
   {
